@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Optimus</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+	<div id="wrapper">
+		<%= yield %>
+	</div>
+
+	<div class="footer">
+		<p>Creating the largest movie and celebrity database</p>
+		<p>&copy; A NextSpeel Company</p>
+	</div>
+
+
+</body>
+</html>

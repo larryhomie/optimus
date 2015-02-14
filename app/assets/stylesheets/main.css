@@ -1,0 +1,124 @@
+/**Larry Oti**/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 85%;
+	font-family: Arial;
+	color: #777;
+	background: #fff;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 1px;
+	visibility: hidden;
+	clear: both;
+}
+
+#wrapper {
+	background: #eeeff0;
+	border: 1px solid #e0e2e4;
+	min-height: 80%;
+}
+
+.homeWrap {
+	width: 80%;
+	margin: 100px auto 0;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0 0 0 1px inset,rgba(0,0,0,0.03) 0 0 3px 0;
+	-mox-box-shadow: rgba(0,0,0,0.1) 0 0 0 1px inset,rgba(0,0,0,0.03) 0 0 3px 0;
+	box-shadow: rgba(0,0,0,0.1) 0 0 0 1px inset,rgba(0,0,0,0.03) 0 0 3px 0;
+	background: #fff;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.head {
+	background: #f7f7f7;
+	padding: 20px 30px 18px;
+	margin-top: -25px;
+	font-weight: bold;
+	color: #ccc;
+	font-size: 1.4em;
+	line-height: 1.5;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	-webkit-box-shadow: rgba(0,0,0,0.07) 0 0 0 1px inset;
+	-moz-box-shadow: rgba(0,0,0,0.07) 0 0 0 1px inset;
+	box-shadow: rgba(0,0,0,0.07) 0 0 0 1px inset;
+}
+
+.units li {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.units li a {
+	display: block;
+	color: #111;
+	padding: 20px 0;
+	font-size: 130%;
+}
+
+.units li span {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 25px auto 10px;
+}
+
+.movieIcon span {
+	background: url(/assets/icon.png) no-repeat -5px center;
+}
+
+.celebIcon span {
+	background: url(/assets/icon.png) no-repeat -107px center;
+}
+
+.companyIcon span {
+	background: url(/assets/icon.png) no-repeat -208px center;
+}
+
+.footer {
+	margin: 30px auto 0;
+	font-size: 90%;
+	text-align: center;
+	width: 80%;
+	opacity: 0.8;
+}
+
+.footer p {
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
